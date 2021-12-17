@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PhoneBookApp.DataAccess;
 
 namespace PhoneBookApp.DataAccess.Migrations
 {
     [DbContext(typeof(PhoneDbContext))]
-    partial class PhoneDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211217131052_ContactTableUpdated2")]
+    partial class ContactTableUpdated2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

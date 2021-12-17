@@ -15,11 +15,7 @@ namespace PhoneBookApp.DataAccess.Migrations
                     FirstName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
                     LastName = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
                     Company = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: true),
-                    PhoneNumber = table.Column<int>(type: "int", maxLength: 10, nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    City = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: true),
-                    District = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: true)
+                    
                 },
                 constraints: table =>
                 {

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PhoneBookApp.DataAccess;
 
 namespace PhoneBookApp.DataAccess.Migrations
 {
     [DbContext(typeof(PhoneDbContext))]
-    partial class PhoneDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211217121714_InitialCreate2")]
+    partial class InitialCreate2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,9 +66,6 @@ namespace PhoneBookApp.DataAccess.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("PersonId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<int?>("PhoneNumber")
                         .IsRequired()
                         .HasMaxLength(10)
@@ -74,25 +73,7 @@ namespace PhoneBookApp.DataAccess.Migrations
 
                     b.HasKey("ContactId");
 
-                    b.HasIndex("PersonId");
-
                     b.ToTable("Contacts");
-                });
-
-            modelBuilder.Entity("PhoneBookApp.Model.Contact", b =>
-                {
-                    b.HasOne("PhoneBook.Entities.Person", "Person")
-                        .WithMany("Contacts")
-                        .HasForeignKey("PersonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Person");
-                });
-
-            modelBuilder.Entity("PhoneBook.Entities.Person", b =>
-                {
-                    b.Navigation("Contacts");
                 });
 #pragma warning restore 612, 618
         }

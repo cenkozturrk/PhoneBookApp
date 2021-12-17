@@ -1,5 +1,7 @@
 ﻿using PhoneBookApp.Model;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -8,7 +10,7 @@ namespace PhoneBook.Entities
     public class Person
     {   
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid Id { get; set; }
+        public Guid PersonId { get; set; }
         
         [Required]
         [StringLength(50)]
@@ -23,8 +25,10 @@ namespace PhoneBook.Entities
         [StringLength(50)]
         [Column(TypeName = "varchar")]
         public string Company { get; set; }
-        
-        public Contact Contact { get; set; }
-
+        public virtual ICollection<Contact> Contacts { get; set; }
+      
+      
     }
+
+
 }
