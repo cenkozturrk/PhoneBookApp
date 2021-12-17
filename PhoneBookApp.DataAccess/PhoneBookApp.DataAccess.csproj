@@ -13,11 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PhoneBook.Entities\PhoneBookApp.Entities.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\PhoneBook.Entities\PhoneBookApp.Model.csproj" />
   </ItemGroup>
 
 </Project>

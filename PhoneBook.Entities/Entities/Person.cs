@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhoneBookApp.Model;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -22,20 +23,8 @@ namespace PhoneBook.Entities
         [StringLength(50)]
         [Column(TypeName = "varchar")]
         public string Company { get; set; }
-
-        [Required]
-        [StringLength(10)]
-        public int? PhoneNumber { get; set; }
-
-        [EmailAddress]
-        public string Email { get; set; }
         
-        public string Address { get; set; }
+        public Contact Contact { get; set; }
 
-        [StringLength(15)]
-        public string City { get; set; }
-
-        [StringLength(15)]
-        public string District { get; set; }
     }
 }

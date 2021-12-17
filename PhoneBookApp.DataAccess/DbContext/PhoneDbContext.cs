@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PhoneBook.Entities;
+using PhoneBookApp.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,6 +16,7 @@ namespace PhoneBookApp.DataAccess
         }
 
         public DbSet<Person> Persons { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
     }
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApp", "PhoneBookApp\PhoneBookApp.csproj", "{8D624081-40FD-4342-A5C8-01FC50440A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApp.Entities", "PhoneBook.Entities\PhoneBookApp.Entities.csproj", "{339F77D9-E9A9-48FF-B982-467C3E78F9A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApp.Model", "PhoneBook.Entities\PhoneBookApp.Model.csproj", "{339F77D9-E9A9-48FF-B982-467C3E78F9A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApp.DataAccess", "PhoneBookApp.DataAccess\PhoneBookApp.DataAccess.csproj", "{45758229-8359-4C44-94D5-3F6D54E75FB7}"
 EndProject

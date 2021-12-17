@@ -9,12 +9,12 @@ namespace PhoneBookApp.DataAccess.Abstract
     {
         List<Person> GetAllPerson();
 
-        Person GetHotelById(int id);
+        Person GetPersonById(int id);
 
-        Person CreatePerson(Person hotel);
+        Person CreatePerson(Person person);
 
         Person UpdatePerson(Person person);
 
-        void DeleteHotel(int id);
+        void DeletePerson(int id);
     }
 }
