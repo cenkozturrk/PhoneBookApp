@@ -20,14 +20,14 @@ namespace PhoneBookApp.Business.Services
             return _contactRepository.CreateContact(contact);
         }
 
-        public List<Contact> GetAllContact()
+        public Contact GetContactById(int id)
         {
-            return _contactRepository.GetAllContact();
+            return _contactRepository.GetContactById(id);
         }
 
-        public Contact UpdateContact(Contact contact)
+        public void DeleteContact(int id)
         {
-            return _contactRepository.UpdateContact(contact);
+             _contactRepository.DeleteContact(id);
         }
     }
 }

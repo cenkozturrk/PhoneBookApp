@@ -7,9 +7,9 @@ namespace PhoneBookApp.DataAccess.Abstract
 {
     public interface IContactRepository
     {
-        List<Contact> GetAllContact();
+        Contact GetContactById(int id);
         Contact CreateContact(Contact contact);
-        Contact UpdateContact(Contact contact);
+        void DeleteContact(int id);
 
     }
 }

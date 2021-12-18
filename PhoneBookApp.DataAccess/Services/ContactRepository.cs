@@ -20,21 +20,21 @@ namespace PhoneBookApp.DataAccess.Services
             }
         }
 
-        public List<Contact> GetAllContact()
+        public Contact GetContactById(int id)
         {
            using(var phoneDbContact = new PhoneDbContext())
             {
-                return phoneDbContact.Contacts.ToList();
+                return phoneDbContact.Contacts.Find(id);
             }
         }
 
-        public Contact UpdateContact(Contact contact)
+        public void DeleteContact(int id)
         {
-            using(var phoneDbContext = new PhoneDbContext())
+            using (var phoneDbContext = new PhoneDbContext())
             {
-                phoneDbContext.Contacts.Update(contact);
+                var deleteContact = GetContactById(id);
+                phoneDbContext.Contacts.Remove(deleteContact);
                 phoneDbContext.SaveChanges();
-                return contact;
             }
         }
     }
