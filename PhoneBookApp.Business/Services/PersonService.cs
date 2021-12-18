@@ -12,9 +12,9 @@ namespace PhoneBookApp.Business.Services
     {
         private IPersonRepository _personRepository;
 
-        public PersonService()
+        public PersonService(IPersonRepository personRepository)
         {
-            _personRepository = new PersonRepository();
+            _personRepository = personRepository;
         }
 
         public Person CreatePerson(Person person)

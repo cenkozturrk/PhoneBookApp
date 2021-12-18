@@ -49,7 +49,8 @@ namespace PhoneBookApp.DataAccess.Services
         {
             using (var phoneDbContext = new PhoneDbContext())
             {
-                phoneDbContext.Persons.Update(person);                
+                phoneDbContext.Persons.Update(person);
+                phoneDbContext.SaveChanges();
                 return person;
             }
         }

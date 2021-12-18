@@ -14,7 +14,7 @@ namespace PhoneBookApp.Model
 
         [Required]
         [StringLength(10)]
-        public int? PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
 
         [EmailAddress]
         public string Email { get; set; }
