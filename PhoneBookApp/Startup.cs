@@ -31,6 +31,8 @@ namespace PhoneBookApp
             services.AddControllers();
             services.AddSingleton<IPersonService, PersonService>();
             services.AddSingleton<IPersonRepository, PersonRepository>();
+            services.AddSwaggerDocument();
+
 
             services.AddRazorPages();
         }
@@ -55,7 +57,8 @@ namespace PhoneBookApp
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
