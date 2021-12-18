@@ -33,8 +33,10 @@ namespace PhoneBookApp
                 fv.RegisterValidatorsFromAssemblyContaining<Startup>();
             });
                 
-            services.AddSingleton<IPersonService, PersonService>();
+            services.AddSingleton<IPersonService, PersonService>();            
             services.AddSingleton<IPersonRepository, PersonRepository>();
+            services.AddSingleton<IContactService, ContactService>();
+            services.AddSingleton<IContactRepository, ContactRepository>();
             services.AddSwaggerDocument();
 
 
