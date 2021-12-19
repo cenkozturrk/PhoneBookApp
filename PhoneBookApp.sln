@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBookApp.DataAccess", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneBookApp.Business", "PhoneBookApp.Business\PhoneBookApp.Business.csproj", "{472E0F1A-760E-4D40-9AB1-C27D547DE8A7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B31B0966-669F-419A-A387-A0956C0EA70E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhoneBookApplication", "PhoneBookApplication", "{B31B0966-669F-419A-A387-A0956C0EA70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApp.Validation", "PhoneBookApp.Validation\PhoneBookApp.Validation.csproj", "{5EB93F59-C97B-4B49-BEDB-59463CA4298F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{472E0F1A-760E-4D40-9AB1-C27D547DE8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{472E0F1A-760E-4D40-9AB1-C27D547DE8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{472E0F1A-760E-4D40-9AB1-C27D547DE8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB93F59-C97B-4B49-BEDB-59463CA4298F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB93F59-C97B-4B49-BEDB-59463CA4298F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB93F59-C97B-4B49-BEDB-59463CA4298F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB93F59-C97B-4B49-BEDB-59463CA4298F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
