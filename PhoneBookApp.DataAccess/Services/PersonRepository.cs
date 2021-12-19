@@ -1,56 +1,58 @@
-﻿using PhoneBook.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using PhoneBook.Entities;
 using PhoneBookApp.DataAccess.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace PhoneBookApp.DataAccess.Services
 {
     public class PersonRepository : IPersonRepository
     {
-        public Person CreatePerson(Person person)
+        public async Task<Person> CreatePerson(Person person)
         {
             using (var phoneDbContext = new PhoneDbContext())
             {
                 phoneDbContext.Persons.Add(person);
-                phoneDbContext.SaveChanges();
+                await phoneDbContext.SaveChangesAsync();
                 return person;
             }
         }
 
-        public void DeletePerson(int id)
+        public async Task DeletePerson(int id)
         {
             using (var phoneDbContext = new PhoneDbContext())
             {
-                var deletePerson = GetPersonById(id);
+                var deletePerson = await GetPersonById(id);
                 phoneDbContext.Persons.Remove(deletePerson);
-                phoneDbContext.SaveChanges();
+                await phoneDbContext.SaveChangesAsync();
             }
         }
 
-        public List<Person> GetAllPerson()
+        public async Task<List<Person>> GetAllPerson()
         {
             using (var phoneDbContext = new PhoneDbContext())
             {
-                return phoneDbContext.Persons.ToList();
+                return await phoneDbContext.Persons.ToListAsync();
             }
         }
 
-        public Person GetPersonById(int id)
+        public async Task<Person> GetPersonById(int id)
         {
             using (var phoneDbContext = new PhoneDbContext())
             {
-                return phoneDbContext.Persons.Find(id);
+                return await phoneDbContext.Persons.FindAsync(id);
             }
         }
 
-        public Person UpdatePerson(Person person)
+        public async Task<Person> UpdatePerson(Person person)
         {
             using (var phoneDbContext = new PhoneDbContext())
             {
                 phoneDbContext.Persons.Update(person);
-                phoneDbContext.SaveChanges();
+                await phoneDbContext .SaveChangesAsync();
                 return person;
             }
         }

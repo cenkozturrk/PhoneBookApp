@@ -26,3 +26,15 @@
 2021-12-19 11:58:59.691 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/favicon-32x32.png  
 2021-12-19 11:58:59.706 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
 2021-12-19 11:58:59.707 +03:00 [INF] Request finished in 15.5159ms 200 image/png
+2021-12-19 13:11:38.267 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 13:11:38.842 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 13:11:38.842 +03:00 [INF] Hosting environment: Development
+2021-12-19 13:11:38.842 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-19 13:11:38.909 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-19 13:11:38.986 +03:00 [INF] Request finished in 82.8203ms 404 
+2021-12-19 13:11:43.334 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-19 13:11:43.351 +03:00 [INF] Request finished in 26.7115ms 302 
+2021-12-19 13:11:43.359 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 13:11:43.609 +03:00 [INF] Request finished in 250.3324ms 200 text/html; charset=utf-8
+2021-12-19 13:11:43.800 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 13:11:44.784 +03:00 [INF] Request finished in 984.0791ms 200 application/json; charset=utf-8

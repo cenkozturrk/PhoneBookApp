@@ -22,34 +22,34 @@ namespace PhoneBookApp.API.Controllers
         }
 
         [HttpGet]
-        public List<Person> Get()
+        public async Task<List<Person>> Get()
         {
-            return _personService.GetAllPerson();
+            return await _personService.GetAllPerson();
         }
 
         [HttpGet("{id}")]
 
-        public Person Get(int id)
+        public async Task<Person> Get(int id)
         {
-            return _personService.GetPersonById(id);
+            return await _personService.GetPersonById(id);
         }
 
         [HttpPost]
-        public Person Post([FromBody]Person person)
+        public async Task<Person> Post([FromBody]Person person)
         {
-            return _personService.CreatePerson(person);
+            return await _personService.CreatePerson(person);
         }
 
         [HttpPut]
-        public Person Put([FromBody]Person person)
+        public async Task<Person> Put([FromBody] Person person)
         {
-            return _personService.UpdatePerson(person);
+            return await _personService.UpdatePerson(person);
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            _personService.DeletePerson(id);
+           await _personService.DeletePerson(id);
 
         }
 

@@ -5,6 +5,7 @@ using PhoneBookApp.DataAccess.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace PhoneBookApp.Business.Services
 {
@@ -17,29 +18,29 @@ namespace PhoneBookApp.Business.Services
             _personRepository = personRepository;
         }
 
-        public Person CreatePerson(Person person)
+        public async Task<Person> CreatePerson(Person person) 
         {
-            return _personRepository.CreatePerson(person);
+            return await _personRepository.CreatePerson(person);
         }
 
-        public void DeletePerson(int id)
+        public async Task DeletePerson(int id)
         {
-            _personRepository.DeletePerson(id);
+            await _personRepository.DeletePerson(id);
         }
 
-        public List<Person> GetAllPerson()
+        public async Task<List<Person>> GetAllPerson()
         {
-            return _personRepository.GetAllPerson();
+            return await _personRepository.GetAllPerson();
         }
 
-        public Person GetPersonById(int id)
+        public async Task<Person> GetPersonById(int id)
         {
-            return _personRepository.GetPersonById(id);
+            return await _personRepository.GetPersonById(id);
         }
 
-        public Person UpdatePerson(Person person)
+        public async Task<Person> UpdatePerson(Person person)
         {
-            return _personRepository.UpdatePerson(person);
+            return await _personRepository.UpdatePerson(person);
         }
     }
 }
