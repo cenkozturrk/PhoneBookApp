@@ -1,0 +1,28 @@
+2021-12-19 11:58:30.326 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 11:58:31.007 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 11:58:31.008 +03:00 [INF] Hosting environment: Development
+2021-12-19 11:58:31.008 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-19 11:58:31.084 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-19 11:58:31.159 +03:00 [INF] Request finished in 80.794ms 404 
+2021-12-19 11:58:56.605 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-19 11:58:56.621 +03:00 [INF] Request finished in 9.3917ms 302 
+2021-12-19 11:58:56.629 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 11:58:56.921 +03:00 [INF] Request finished in 291.7653ms 200 text/html; charset=utf-8
+2021-12-19 11:58:56.997 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/swagger-ui.css  
+2021-12-19 11:58:56.997 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/swagger-ui-bundle.js  
+2021-12-19 11:58:57.001 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/swagger-ui-standalone-preset.js  
+2021-12-19 11:58:57.021 +03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-12-19 11:58:57.021 +03:00 [INF] The file /swagger-ui.css was not modified
+2021-12-19 11:58:57.021 +03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-12-19 11:58:57.023 +03:00 [INF] Request finished in 26.3473ms 304 application/javascript
+2021-12-19 11:58:57.023 +03:00 [INF] Request finished in 23.3849ms 304 application/javascript
+2021-12-19 11:58:57.023 +03:00 [INF] Request finished in 26.4984ms 304 text/css
+2021-12-19 11:58:57.385 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 11:58:58.592 +03:00 [INF] Request finished in 1208.3034ms 200 application/json; charset=utf-8
+2021-12-19 11:58:59.499 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 11:58:59.507 +03:00 [INF] Request finished in 8.2738ms 200 text/html; charset=utf-8
+2021-12-19 11:58:59.676 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 11:58:59.678 +03:00 [INF] Request finished in 1.8981ms 200 application/json; charset=utf-8
+2021-12-19 11:58:59.691 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/favicon-32x32.png  
+2021-12-19 11:58:59.706 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-19 11:58:59.707 +03:00 [INF] Request finished in 15.5159ms 200 image/png

@@ -39,6 +39,8 @@ namespace PhoneBookApp
             services.AddSingleton<IContactRepository, ContactRepository>();
             services.AddSwaggerDocument();
 
+            services.AddLogging();
+            
 
             services.AddRazorPages();
         }
