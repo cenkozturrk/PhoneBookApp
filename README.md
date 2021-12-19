@@ -4,4 +4,5 @@
 -Fluent Validation
 -Architectural Layer
 -MS Sql
+-SeriLog
 
