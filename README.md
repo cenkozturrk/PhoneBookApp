@@ -1,4 +1,4 @@
-                                               This sample project includes the folllowing:
+                                         This sample project includes the folllowing:
 
  
  
