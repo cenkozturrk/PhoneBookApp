@@ -38,3 +38,341 @@
 2021-12-19 13:11:43.609 +03:00 [INF] Request finished in 250.3324ms 200 text/html; charset=utf-8
 2021-12-19 13:11:43.800 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
 2021-12-19 13:11:44.784 +03:00 [INF] Request finished in 984.0791ms 200 application/json; charset=utf-8
+2021-12-19 13:30:59.146 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 13:31:00.015 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 13:31:00.016 +03:00 [INF] Hosting environment: Development
+2021-12-19 13:31:00.017 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-19 13:31:00.165 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-19 13:31:00.165 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-19 13:31:00.214 +03:00 [INF] Request finished in 57.4812ms 0 
+2021-12-19 13:31:00.252 +03:00 [INF] Request finished in 95.3142ms 302 
+2021-12-19 13:31:00.257 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 13:31:00.517 +03:00 [INF] Request finished in 259.6135ms 200 text/html; charset=utf-8
+2021-12-19 13:31:00.753 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 13:31:01.769 +03:00 [INF] Request finished in 1016.0871ms 200 application/json; charset=utf-8
+2021-12-19 13:31:09.045 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/PersonsControllers  
+2021-12-19 13:31:09.051 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:31:09.126 +03:00 [INF] Route matched with {action = "Get", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[PhoneBook.Entities.Person]] Get() on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:31:11.793 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhoneBook.Entities.Person, PhoneBookApp.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-19 13:31:11.817 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API) in 2686.4994ms
+2021-12-19 13:31:11.820 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:31:11.823 +03:00 [INF] Request finished in 2779.7478ms 200 application/json; charset=utf-8
+2021-12-19 13:32:25.495 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 391
+2021-12-19 13:32:25.497 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:32:25.524 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:32:25.572 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-19 13:32:25.577 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 52.4985ms
+2021-12-19 13:32:25.577 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:32:25.577 +03:00 [INF] Request finished in 92.3807ms 400 application/problem+json; charset=utf-8
+2021-12-19 13:32:37.673 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/PersonsControllers  
+2021-12-19 13:32:37.674 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:32:37.675 +03:00 [INF] Route matched with {action = "Get", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[PhoneBook.Entities.Person]] Get() on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:32:37.725 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhoneBook.Entities.Person, PhoneBookApp.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-19 13:32:37.726 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API) in 50.076ms
+2021-12-19 13:32:37.726 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:32:37.726 +03:00 [INF] Request finished in 53.7498ms 200 application/json; charset=utf-8
+2021-12-19 13:33:23.335 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 375
+2021-12-19 13:33:23.337 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:33:23.338 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:33:23.341 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-19 13:33:23.343 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 3.3175ms
+2021-12-19 13:33:23.344 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:33:23.345 +03:00 [INF] Request finished in 10.1789ms 400 application/problem+json; charset=utf-8
+2021-12-19 13:33:33.814 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 375
+2021-12-19 13:33:33.815 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:33:33.815 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:33:33.818 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-19 13:33:33.819 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 4.0174ms
+2021-12-19 13:33:33.819 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:33:33.820 +03:00 [INF] Request finished in 5.7983ms 400 application/problem+json; charset=utf-8
+2021-12-19 13:33:44.632 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/PersonsControllers  
+2021-12-19 13:33:44.632 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:33:44.635 +03:00 [INF] Route matched with {action = "Get", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[PhoneBook.Entities.Person]] Get() on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:33:44.673 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhoneBook.Entities.Person, PhoneBookApp.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-19 13:33:44.674 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API) in 38.7883ms
+2021-12-19 13:33:44.675 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:33:44.675 +03:00 [INF] Request finished in 43.7463ms 200 application/json; charset=utf-8
+2021-12-19 13:34:43.304 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 13:34:43.905 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 13:34:43.905 +03:00 [INF] Hosting environment: Development
+2021-12-19 13:34:43.905 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-19 13:34:43.955 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-19 13:34:44.014 +03:00 [INF] Request finished in 62.1372ms 404 
+2021-12-19 13:34:46.304 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-19 13:34:46.319 +03:00 [INF] Request finished in 16.3545ms 302 
+2021-12-19 13:34:46.333 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 13:34:46.540 +03:00 [INF] Request finished in 207.0314ms 200 text/html; charset=utf-8
+2021-12-19 13:34:47.138 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 13:34:48.109 +03:00 [INF] Request finished in 971.0466ms 200 application/json; charset=utf-8
+2021-12-19 13:34:52.857 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/PersonsControllers  
+2021-12-19 13:34:52.863 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:34:52.930 +03:00 [INF] Route matched with {action = "Get", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[PhoneBook.Entities.Person]] Get() on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:34:54.652 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhoneBook.Entities.Person, PhoneBookApp.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-19 13:34:54.672 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API) in 1734.989ms
+2021-12-19 13:34:54.674 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 13:34:54.678 +03:00 [INF] Request finished in 1821.394ms 200 application/json; charset=utf-8
+2021-12-19 13:35:28.792 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 352
+2021-12-19 13:35:28.796 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:35:28.831 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:35:28.874 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-19 13:35:28.876 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 43.9319ms
+2021-12-19 13:35:28.876 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:35:28.876 +03:00 [INF] Request finished in 91.6652ms 400 application/problem+json; charset=utf-8
+2021-12-19 13:36:18.528 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 343
+2021-12-19 13:36:18.528 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:36:18.530 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:36:18.534 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-19 13:36:18.537 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 5.5334ms
+2021-12-19 13:36:18.541 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:36:18.541 +03:00 [INF] Request finished in 13.589ms 400 application/problem+json; charset=utf-8
+2021-12-19 13:36:27.617 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 343
+2021-12-19 13:36:27.618 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:36:27.618 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 13:36:27.621 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-19 13:36:27.622 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 3.9755ms
+2021-12-19 13:36:27.622 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 13:36:27.623 +03:00 [INF] Request finished in 6.1987ms 400 application/problem+json; charset=utf-8
+2021-12-19 15:38:11.351 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 15:38:12.143 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 15:38:12.144 +03:00 [INF] Hosting environment: Development
+2021-12-19 15:38:12.144 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-19 15:38:12.236 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-19 15:38:12.310 +03:00 [INF] Request finished in 78.6373ms 302 
+2021-12-19 15:38:12.346 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 15:38:12.647 +03:00 [INF] Request finished in 301.1238ms 200 text/html; charset=utf-8
+2021-12-19 15:38:12.954 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 15:38:14.092 +03:00 [INF] Request finished in 1139.2838ms 200 application/json; charset=utf-8
+2021-12-19 15:38:39.061 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/ContactsControllers/0  
+2021-12-19 15:38:39.077 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.ContactsControllers.Get (PhoneBookApp.API)'
+2021-12-19 15:38:39.134 +03:00 [INF] Route matched with {action = "Get", controller = "ContactsControllers", page = ""}. Executing controller action with signature PhoneBookApp.Model.Contact Get(Int32) on controller PhoneBookApp.API.Controllers.ContactsControllers (PhoneBookApp.API).
+2021-12-19 15:39:01.724 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.ContactsControllers.Get (PhoneBookApp.API) in 22583.2539ms
+2021-12-19 15:39:01.728 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.ContactsControllers.Get (PhoneBookApp.API)'
+2021-12-19 15:39:01.734 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<Contact>.Find' was of type 'int', which does not match the property type of 'Guid'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues, IReadOnlyList`1& keyProperties)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.Find(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)
+   at PhoneBookApp.DataAccess.Services.ContactRepository.GetContactById(Int32 id) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp.DataAccess\Services\ContactRepository.cs:line 27
+   at PhoneBookApp.Business.Services.ContactService.GetContactById(Int32 id) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp.Business\Services\ContactService.cs:line 25
+   at PhoneBookApp.API.Controllers.ContactsControllers.Get(Int32 id) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp\Controllers\ContactsControllers.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-19 15:39:01.881 +03:00 [INF] Request finished in 22820.0733ms 500 text/plain
+2021-12-19 15:39:07.265 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/ContactsControllers/1  
+2021-12-19 15:39:07.270 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.ContactsControllers.Get (PhoneBookApp.API)'
+2021-12-19 15:39:07.272 +03:00 [INF] Route matched with {action = "Get", controller = "ContactsControllers", page = ""}. Executing controller action with signature PhoneBookApp.Model.Contact Get(Int32) on controller PhoneBookApp.API.Controllers.ContactsControllers (PhoneBookApp.API).
+2021-12-19 15:39:14.529 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.ContactsControllers.Get (PhoneBookApp.API) in 7256.8846ms
+2021-12-19 15:39:14.530 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.ContactsControllers.Get (PhoneBookApp.API)'
+2021-12-19 15:39:14.531 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<Contact>.Find' was of type 'int', which does not match the property type of 'Guid'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues, IReadOnlyList`1& keyProperties)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.Find(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)
+   at PhoneBookApp.DataAccess.Services.ContactRepository.GetContactById(Int32 id) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp.DataAccess\Services\ContactRepository.cs:line 27
+   at PhoneBookApp.Business.Services.ContactService.GetContactById(Int32 id) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp.Business\Services\ContactService.cs:line 25
+   at PhoneBookApp.API.Controllers.ContactsControllers.Get(Int32 id) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp\Controllers\ContactsControllers.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-19 15:39:14.535 +03:00 [INF] Request finished in 7270.2412ms 500 text/plain
+2021-12-19 15:41:25.845 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 15:41:26.323 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 15:41:26.324 +03:00 [INF] Hosting environment: Development
+2021-12-19 15:41:26.324 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-19 15:41:26.386 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-19 15:41:26.455 +03:00 [INF] Request finished in 76.3224ms 404 
+2021-12-19 15:41:27.402 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-19 15:41:27.424 +03:00 [INF] Request finished in 14.764ms 302 
+2021-12-19 15:41:27.437 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 15:41:27.693 +03:00 [INF] Request finished in 255.2531ms 200 text/html; charset=utf-8
+2021-12-19 15:41:28.274 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 15:41:29.188 +03:00 [INF] Request finished in 915.1043ms 200 application/json; charset=utf-8
+2021-12-19 15:41:47.029 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/PersonsControllers  
+2021-12-19 15:41:47.036 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 15:41:47.097 +03:00 [INF] Route matched with {action = "Get", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[PhoneBook.Entities.Person]] Get() on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 15:41:49.014 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhoneBook.Entities.Person, PhoneBookApp.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-19 15:41:49.046 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API) in 1940.3837ms
+2021-12-19 15:41:49.048 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-19 15:41:49.054 +03:00 [INF] Request finished in 2026.3364ms 200 application/json; charset=utf-8
+2021-12-19 15:42:26.053 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 99
+2021-12-19 15:42:26.056 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 15:42:26.077 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 15:42:26.125 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-19 15:42:26.129 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 51.296ms
+2021-12-19 15:42:26.129 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 15:42:26.129 +03:00 [INF] Request finished in 78.5599ms 400 application/problem+json; charset=utf-8
+2021-12-19 15:43:49.552 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-19 15:43:49.995 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-19 15:43:49.995 +03:00 [INF] Hosting environment: Development
+2021-12-19 15:43:49.995 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-19 15:43:50.058 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-19 15:43:50.117 +03:00 [INF] Request finished in 63.3392ms 404 
+2021-12-19 15:43:54.089 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-19 15:43:54.110 +03:00 [INF] Request finished in 22.3723ms 302 
+2021-12-19 15:43:54.130 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-19 15:43:54.391 +03:00 [INF] Request finished in 260.8972ms 200 text/html; charset=utf-8
+2021-12-19 15:43:54.860 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-19 15:43:55.758 +03:00 [INF] Request finished in 897.7996ms 200 application/json; charset=utf-8
+2021-12-19 15:44:27.798 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 96
+2021-12-19 15:44:27.810 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 15:44:27.880 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-19 15:44:29.691 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 1805.7595ms
+2021-12-19 15:44:29.693 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-19 15:44:29.700 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Operand type clash: int is incompatible with uniqueidentifier
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7b7c73e0-9cb9-4a7e-95f6-1bddd4216aeb
+Error Number:206,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PhoneBookApp.DataAccess.Services.PersonRepository.CreatePerson(Person person) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp.DataAccess\Services\PersonRepository.cs:line 19
+   at PhoneBookApp.Business.Services.PersonService.CreatePerson(Person person) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp.Business\Services\PersonService.cs:line 23
+   at PhoneBookApp.API.Controllers.PersonsControllers.Post(Person person) in C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp\Controllers\PersonsControllers.cs:line 40
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-19 15:44:29.793 +03:00 [INF] Request finished in 1996.9981ms 500 text/plain
+2021-12-20 09:26:22.622 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-20 09:26:23.169 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-20 09:26:23.169 +03:00 [INF] Hosting environment: Development
+2021-12-20 09:26:23.169 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-20 09:26:23.234 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-20 09:26:23.304 +03:00 [INF] Request finished in 73.1614ms 404 
+2021-12-20 09:26:26.698 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-20 09:26:26.710 +03:00 [INF] Request finished in 14.0117ms 302 
+2021-12-20 09:26:26.721 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-20 09:26:26.979 +03:00 [INF] Request finished in 257.4814ms 200 text/html; charset=utf-8
+2021-12-20 09:26:27.014 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/swagger-ui.css  
+2021-12-20 09:26:27.014 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/swagger-ui-standalone-preset.js  
+2021-12-20 09:26:27.014 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/swagger-ui-bundle.js  
+2021-12-20 09:26:27.023 +03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-12-20 09:26:27.023 +03:00 [INF] The file /swagger-ui.css was not modified
+2021-12-20 09:26:27.023 +03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-12-20 09:26:27.024 +03:00 [INF] Request finished in 9.7419ms 304 application/javascript
+2021-12-20 09:26:27.024 +03:00 [INF] Request finished in 9.7421ms 304 text/css
+2021-12-20 09:26:27.024 +03:00 [INF] Request finished in 9.7421ms 304 application/javascript
+2021-12-20 09:26:27.683 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-20 09:26:28.689 +03:00 [INF] Request finished in 1006.8036ms 200 application/json; charset=utf-8
+2021-12-20 09:33:48.471 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 371
+2021-12-20 09:33:48.484 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-20 09:33:48.565 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-20 09:33:48.642 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-20 09:33:48.663 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 90.9375ms
+2021-12-20 09:33:48.664 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-20 09:33:48.666 +03:00 [INF] Request finished in 197.6003ms 400 application/problem+json; charset=utf-8
+2021-12-20 09:36:38.445 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-20 09:36:39.307 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-20 09:36:39.308 +03:00 [INF] Hosting environment: Development
+2021-12-20 09:36:39.308 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-20 09:36:39.427 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-20 09:36:39.427 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-20 09:36:39.427 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-20 09:36:39.474 +03:00 [INF] Request finished in 51.948ms 0 
+2021-12-20 09:36:39.474 +03:00 [INF] Request finished in 51.1909ms 0 
+2021-12-20 09:36:39.561 +03:00 [INF] Request finished in 138.8652ms 302 
+2021-12-20 09:36:39.584 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-20 09:36:39.915 +03:00 [INF] Request finished in 330.8159ms 200 text/html; charset=utf-8
+2021-12-20 09:36:40.346 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-20 09:36:41.486 +03:00 [INF] Request finished in 1140.5818ms 200 application/json; charset=utf-8
+2021-12-20 09:46:14.000 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/api/PersonsControllers  
+2021-12-20 09:46:14.013 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-20 09:46:14.078 +03:00 [INF] Route matched with {action = "Get", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[PhoneBook.Entities.Person]] Get() on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-20 09:46:16.177 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhoneBook.Entities.Person, PhoneBookApp.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-20 09:46:16.196 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API) in 2113.379ms
+2021-12-20 09:46:16.198 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Get (PhoneBookApp.API)'
+2021-12-20 09:46:16.202 +03:00 [INF] Request finished in 2202.595ms 200 application/json; charset=utf-8
+2021-12-20 09:47:04.920 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44321/api/PersonsControllers application/json 369
+2021-12-20 09:47:04.925 +03:00 [INF] Executing endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-20 09:47:04.965 +03:00 [INF] Route matched with {action = "Post", controller = "PersonsControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneBook.Entities.Person] Post(PhoneBook.Entities.Person) on controller PhoneBookApp.API.Controllers.PersonsControllers (PhoneBookApp.API).
+2021-12-20 09:47:05.008 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-12-20 09:47:05.011 +03:00 [INF] Executed action PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API) in 45.4961ms
+2021-12-20 09:47:05.011 +03:00 [INF] Executed endpoint 'PhoneBookApp.API.Controllers.PersonsControllers.Post (PhoneBookApp.API)'
+2021-12-20 09:47:05.011 +03:00 [INF] Request finished in 97.9186ms 400 application/problem+json; charset=utf-8
+2021-12-20 10:53:42.639 +03:00 [INF] User profile is available. Using 'C:\Users\cenk.ozturk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-20 10:53:43.330 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-20 10:53:43.330 +03:00 [INF] Hosting environment: Development
+2021-12-20 10:53:43.330 +03:00 [INF] Content root path: C:\Users\cenk.ozturk\source\repos\PhoneBookApp\PhoneBookApp
+2021-12-20 10:53:43.395 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/  
+2021-12-20 10:53:43.478 +03:00 [INF] Request finished in 88.2144ms 404 
+2021-12-20 10:53:50.340 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger  
+2021-12-20 10:53:50.365 +03:00 [INF] Request finished in 30.8025ms 302 
+2021-12-20 10:53:50.381 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/index.html  
+2021-12-20 10:53:50.820 +03:00 [INF] Request finished in 439.7206ms 200 text/html; charset=utf-8
+2021-12-20 10:53:51.297 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44321/swagger/v1/swagger.json  
+2021-12-20 10:53:52.393 +03:00 [INF] Request finished in 1096.6813ms 200 application/json; charset=utf-8

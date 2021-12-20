@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using PhoneBook.Entities;
 using PhoneBookApp.Business.Abstract;
 using PhoneBookApp.Business.Services;
@@ -15,10 +16,12 @@ namespace PhoneBookApp.API.Controllers
     public class PersonsControllers : ControllerBase
     {
         private IPersonService _personService;
+        private readonly IDistributedCache _redisDistributedCache;
 
-        public PersonsControllers(IPersonService personService)
+        public PersonsControllers(IPersonService personService, IDistributedCache redisDistributedCache)
         {
             _personService = personService;
+            _redisDistributedCache = redisDistributedCache;
         }
 
         [HttpGet]

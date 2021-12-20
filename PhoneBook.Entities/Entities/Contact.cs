@@ -25,12 +25,12 @@ namespace PhoneBookApp.Model
         public string City { get; set; }
 
         [StringLength(15)]
-        public string District { get; set; }
-
-        [ForeignKey(nameof(Person))]
-        public Guid PersonId { get; set; }
+        public string District { get; set; }       
 
         public Person Person { get; set; }
-        
+
+
+
+
     }
 }

@@ -9,8 +9,8 @@ namespace PhoneBook.Entities
 {
     public class Person
     {   
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid PersonId { get; set; }
+        [Key]
+        public int PersonId { get; set; }
         
         [Required]
         [StringLength(50)]
@@ -25,9 +25,11 @@ namespace PhoneBook.Entities
         [StringLength(50)]
         [Column(TypeName = "varchar")]
         public string Company { get; set; }
+
         public virtual ICollection<Contact> Contacts { get; set; }
-      
-      
+
+
+
     }
 
 
